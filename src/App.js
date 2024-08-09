@@ -105,7 +105,9 @@ function App() {
                                 marginBottom: '30px',
                                 lineHeight: '1.6'
                             }}>
-                                Upload a file with coordinates to visualize and optimize the route.
+                                POC for the Optilogix project, the project aims to make the delivery process more efficient and less consuming 
+                                <br></br>
+                                press test case button, to test the poc, there're 3 test cases implemented 
                             </p>
 
                             <Link to="/admin" style={{
