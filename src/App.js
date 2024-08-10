@@ -11,20 +11,20 @@ function App() {
 
     // Define the test cases with restaurant and customer locations
     const testCases = [
-        {
-            restaurant: { lat: 24.725398, lng: 46.663781 }, // Al Hamra, Riyadh
-            firstCustomer: { lat: 24.737619, lng: 46.663707 }, // Al Nakheel, Riyadh
-            secondCustomer: { lat: 24.688217, lng: 46.707506 } // Al Malaz, Riyadh
+        { //24.770791, 46.680288
+            restaurant: { lat: 24.766075, lng: 46.680265 }, // Al Hamra, Riyadh
+            firstCustomer: { lat: 24.772487, lng: 46.684008 }, // Al Nakheel, Riyadh
+            secondCustomer: { lat: 24.770791, lng: 46.680288 } // Al Malaz, Riyadh
         },
-        {
-            restaurant: { lat: 24.690142, lng: 46.686044 }, // Al Olaya, Riyadh
-            firstCustomer: { lat: 24.678380, lng: 46.688740 }, // Al Murabba, Riyadh
-            secondCustomer: { lat: 24.719727, lng: 46.665364 } // Al Wurud, Riyadh
+        { //24.730325, 46.629509
+            restaurant: { lat: 24.748616, lng: 46.663546 }, // Al Olaya, Riyadh
+            firstCustomer: { lat: 24.730325, lng: 46.629509 }, // Al Murabba, Riyadh
+            secondCustomer: { lat: 24.743150, lng: 46.649186 } // Al Wurud, Riyadh
         },
-        {
-            restaurant: { lat: 24.742417, lng: 46.698839 }, // Al Mursalat, Riyadh
+        { //24.747705, 46.682366
+            restaurant: { lat: 24.742598, lng: 46.698586 }, // Al Mursalat, Riyadh
             firstCustomer: { lat: 24.753215, lng: 46.683678 }, // King Fahd, Riyadh
-            secondCustomer: { lat: 24.764424, lng: 46.712326 } // Al Nuzha, Riyadh
+            secondCustomer: { lat: 24.747705, lng: 46.682366 } // Al Nuzha, Riyadh
         }
     ];
 

@@ -164,7 +164,7 @@ function GoogleMapComponent({ coordinates, onCoordinatesUpdate }) {
             const travelTime = await checkProximity(lastOrder, newOrder);
 
             const accepted = travelTime <= 15;
-            setModalMessage(`Travel time between the first and second customers is ${travelTime} minutes. Do you accept this delivery?`);
+            setModalMessage(`There is a package to drop off on the same route. Do you accept this delivery?`);
             setIsModalOpen(true);
 
             const handleAccept = () => {
@@ -297,7 +297,7 @@ function GoogleMapComponent({ coordinates, onCoordinatesUpdate }) {
                                 borderRadius: '5px',
                                 cursor: 'pointer'
                             }}>
-                            Accept
+                            Accept, Call the Customer
                         </button>
                         <button 
                             onClick={window.handleReject} 
